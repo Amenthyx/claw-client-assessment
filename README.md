@@ -1,52 +1,59 @@
 # Claw Client Assessment Toolkit
 
-> Professional needs assessment, benchmarking, and solution mapping for AI agent deployments.
+> Professional client consultation and needs discovery for AI assistant deployments.
 
 ## Overview
 
-This toolkit helps consultants and sales engineers assess client needs and map them to the optimal Claw platform deployment. Designed for **non-technical clients** who want AI agents but don't know where to start.
+This toolkit helps you understand what clients need and deliver a tailored AI assistant solution. Designed for **non-technical clients** — no jargon, no tech specs. Just clear questions about their daily life, tools, and what they want automated.
 
 ## What's Inside
 
-### Questionnaire
-Machine-readable client intake form covering:
-- Client profile (industry, size, technical level, budget)
-- 58 use cases across 8 categories
-- Communication preferences
-- Data & privacy requirements
-- Performance & scale expectations
+### Client Questionnaire (DOCX)
+Two-part intake form with a warm, professional tone:
 
-### Needs-to-Solution Mapping
-Automated correlation between:
-- **Client needs** → **Platform** (OpenClaw / NanoClaw / PicoClaw)
-- **Client needs** → **LLM Model** (Claude, GPT, DeepSeek, Gemini)
-- **Client needs** → **Skills & Plugins** (from ClawHub's 3,286+ catalog)
-- **Client needs** → **Estimated monthly cost**
+**Part A — Private Clients**
+- Daily routine and frustrations
+- Digital tools they already use (email, calendar, apps, smart home)
+- What they want their AI assistant to do (rated 1–5)
+- Integration & automation discovery (which tools to connect)
+- Privacy preferences and personality customization
 
-### Benchmarks
-- Platform comparison (RAM, startup, security, integrations, cost)
-- LLM model comparison (price, quality, speed, context window)
-- Skills catalog with ratings and descriptions
+**Part B — Enterprise Clients**
+- Company profile and pain points (rated 1–5)
+- Full inventory of current tools (CRM, PM, accounting, marketing, support, HR, dev)
+- Integration & automation priorities by department
+- Compliance & security requirements
+- Scale and growth expectations
 
-### Service Packages
-| Package | Price | Includes |
-|---------|-------|----------|
-| Starter | $99 one-time | PicoClaw + 1 channel + 3 skills |
-| Professional | $299 one-time | OpenClaw + 3 channels + 10 skills |
-| Business | $599 one-time | OpenClaw + all channels + 20 skills + training |
-| Enterprise | $1,499+ | Custom deployment + swarms + dedicated support |
-| Managed | $199/month | Any platform + monitoring + 24/7 support |
+### Internal Reference Data (JSON)
+For internal use only — not shared with clients:
+- Platform comparison benchmarks (OpenClaw vs NanoClaw vs PicoClaw)
+- LLM model comparison (pricing, quality, compatibility)
+- Needs-to-solution mapping matrix
+- Skills catalog with ratings
+
+## Pricing
+
+| Solution | Price | Details |
+|----------|-------|---------|
+| **Private** | €1,000 one-time | Full setup, all channels, custom workflows, personality. 48–72h delivery. |
+| **Enterprise** | From €5,000 one-time | Full deployment, unlimited users/integrations/workflows, compliance. 1–2 weeks. |
+| **Managed Service** | €300/month | Installation included. Hosting, monitoring, updates, optimization. |
+| **Ongoing Assistance** | €500/month | Available after 6 months. Priority support, monthly calls, new integrations. |
+
+> **Note:** AI provider API subscriptions are managed and paid directly by the client.
 
 ## Usage
 
-1. Share the questionnaire with your client (DOCX or JSON)
-2. Review responses and run through the needs mapping
-3. Present recommended solution with benchmarks
-4. Deploy using [claw-one-click-deploy](https://github.com/Amenthyx/claw-one-click-deploy)
+1. Share the DOCX questionnaire with your client (Part A or Part B)
+2. Review their answers — focus on integrations and automation priorities
+3. Internally map their needs using the JSON reference data
+4. Present a tailored proposal with pricing
+5. Deploy using [claw-one-click-deploy](https://github.com/Amenthyx/claw-one-click-deploy)
 
 ## Documentation
 
-Full assessment document: `docs/AI_Agent_Client_Needs_Assessment.docx`
+Full questionnaire document: `docs/AI_Agent_Client_Needs_Assessment.docx`
 
 ## Related
 

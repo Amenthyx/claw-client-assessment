@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "mappings": [
+    {
+      "need": "Basic personal assistant",
+      "platform": "PicoClaw",
+      "llm_model": "DeepSeek V3.2",
+      "skills": ["calendar", "email", "web-search"],
+      "monthly_cost_range": "$0-5"
+    },
+    {
+      "need": "WhatsApp business bot",
+      "platform": "OpenClaw",
+      "llm_model": "Claude Sonnet 4.6",
+      "skills": ["whatsapp-business", "crm-sync", "auto-reply"],
+      "monthly_cost_range": "$25-50"
+    },
+    {
+      "need": "Secure document processing",
+      "platform": "NanoClaw",
+      "llm_model": "Claude Opus 4.6",
+      "skills": ["document-parser", "summarizer", "file-manager"],
+      "monthly_cost_range": "$50-100"
+    },
+    {
+      "need": "E-commerce customer support",
+      "platform": "OpenClaw",
+      "llm_model": "GPT-5.2",
+      "skills": ["customer-support", "order-tracking", "faq-bot"],
+      "monthly_cost_range": "$50-150"
+    },
+    {
+      "need": "Developer workflow automation",
+      "platform": "NanoClaw",
+      "llm_model": "Claude Sonnet 4.6",
+      "skills": ["git-manager", "code-review", "ci-cd-monitor"],
+      "monthly_cost_range": "$25-75"
+    },
+    {
+      "need": "Smart home control",
+      "platform": "PicoClaw",
+      "llm_model": "DeepSeek V3.2",
+      "skills": ["hue-control", "thermostat", "routine-manager"],
+      "monthly_cost_range": "$0-5"
+    },
+    {
+      "need": "Marketing content creation",
+      "platform": "OpenClaw",
+      "llm_model": "Claude Opus 4.6",
+      "skills": ["content-writer", "image-gen", "social-scheduler"],
+      "monthly_cost_range": "$100-200"
+    },
+    {
+      "need": "Financial analysis and reporting",
+      "platform": "NanoClaw",
+      "llm_model": "Claude Opus 4.6",
+      "skills": ["spreadsheet-ai", "report-gen", "market-data"],
+      "monthly_cost_range": "$75-150"
+    },
+    {
+      "need": "Multi-team Slack automation",
+      "platform": "OpenClaw",
+      "llm_model": "Claude Sonnet 4.6",
+      "skills": ["slack-bot", "project-tracker", "standup-bot"],
+      "monthly_cost_range": "$50-100"
+    },
+    {
+      "need": "Edge/IoT monitoring",
+      "platform": "PicoClaw",
+      "llm_model": "DeepSeek R1",
+      "skills": ["sensor-monitor", "alert-system", "data-logger"],
+      "monthly_cost_range": "$0-10"
+    },
+    {
+      "need": "Legal document review",
+      "platform": "NanoClaw",
+      "llm_model": "Claude Opus 4.6",
+      "skills": ["legal-parser", "compliance-check", "redactor"],
+      "monthly_cost_range": "$100-200"
+    },
+    {
+      "need": "Real estate lead management",
+      "platform": "OpenClaw",
+      "llm_model": "GPT-5.2",
+      "skills": ["lead-qualifier", "property-matcher", "auto-follow-up"],
+      "monthly_cost_range": "$75-150"
+    },
+    {
+      "need": "Healthcare scheduling",
+      "platform": "NanoClaw",
+      "llm_model": "Claude Sonnet 4.6",
+      "skills": ["appointment-manager", "patient-notify", "hipaa-guard"],
+      "monthly_cost_range": "$50-100"
+    },
+    {
+      "need": "Multi-agent research team",
+      "platform": "OpenClaw + NanoClaw",
+      "llm_model": "Claude Opus 4.6",
+      "skills": ["agent-swarm", "research-coordinator", "report-compiler"],
+      "monthly_cost_range": "$200-500"
+    },
+    {
+      "need": "Budget personal AI on Raspberry Pi",
+      "platform": "PicoClaw",
+      "llm_model": "DeepSeek V3.2",
+      "skills": ["basic-assistant", "web-search", "reminder"],
+      "monthly_cost_range": "$0"
+    }
+  ]
+}

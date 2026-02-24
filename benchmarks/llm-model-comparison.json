@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-02-24",
+  "models": [
+    {
+      "name": "Claude Opus 4.6",
+      "provider": "Anthropic",
+      "input_price_per_1m": 15.00,
+      "output_price_per_1m": 75.00,
+      "context_window": 200000,
+      "best_for": "Complex tasks, coding, analysis",
+      "agent_compatibility": ["OpenClaw", "NanoClaw", "PicoClaw"],
+      "analogy": "Luxury sedan — premium, handles everything",
+      "recommendation": "Power User"
+    },
+    {
+      "name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "input_price_per_1m": 3.00,
+      "output_price_per_1m": 15.00,
+      "context_window": 200000,
+      "best_for": "Most business tasks",
+      "agent_compatibility": ["OpenClaw", "NanoClaw", "PicoClaw"],
+      "analogy": "Reliable SUV — great balance",
+      "recommendation": "Best Overall"
+    },
+    {
+      "name": "Claude Haiku 4.5",
+      "provider": "Anthropic",
+      "input_price_per_1m": 0.80,
+      "output_price_per_1m": 4.00,
+      "context_window": 200000,
+      "best_for": "Simple tasks, high volume",
+      "agent_compatibility": ["OpenClaw", "NanoClaw", "PicoClaw"],
+      "analogy": "City car — quick and affordable"
+    },
+    {
+      "name": "GPT-5.2",
+      "provider": "OpenAI",
+      "input_price_per_1m": 1.25,
+      "output_price_per_1m": 5.00,
+      "context_window": 400000,
+      "best_for": "Reasoning, research, low hallucination",
+      "agent_compatibility": ["OpenClaw", "PicoClaw"],
+      "analogy": "Sports car — powerful and precise",
+      "recommendation": "Enterprise"
+    },
+    {
+      "name": "GPT-4.1",
+      "provider": "OpenAI",
+      "input_price_per_1m": 2.00,
+      "output_price_per_1m": 8.00,
+      "context_window": 1000000,
+      "best_for": "Large context tasks",
+      "agent_compatibility": ["OpenClaw", "PicoClaw"],
+      "analogy": "Cargo truck — carries massive loads"
+    },
+    {
+      "name": "DeepSeek R1",
+      "provider": "DeepSeek",
+      "input_price_per_1m": 0.55,
+      "output_price_per_1m": 2.19,
+      "context_window": 128000,
+      "best_for": "Budget reasoning tasks",
+      "agent_compatibility": ["OpenClaw", "NanoClaw", "PicoClaw"],
+      "analogy": "Hybrid — smart and economical"
+    },
+    {
+      "name": "DeepSeek V3.2",
+      "provider": "DeepSeek",
+      "input_price_per_1m": 0.14,
+      "output_price_per_1m": 0.28,
+      "context_window": 128000,
+      "best_for": "Maximum savings",
+      "agent_compatibility": ["OpenClaw", "NanoClaw", "PicoClaw"],
+      "analogy": "Electric scooter — ultra-cheap, gets the job done",
+      "recommendation": "Budget Pick"
+    },
+    {
+      "name": "Gemini 2.5 Pro",
+      "provider": "Google",
+      "input_price_per_1m": 1.25,
+      "output_price_per_1m": 10.00,
+      "context_window": 1000000,
+      "best_for": "Multimodal, huge documents",
+      "agent_compatibility": ["OpenClaw"],
+      "analogy": "Cargo truck — handles massive loads"
+    },
+    {
+      "name": "Grok 4.1 Fast",
+      "provider": "xAI",
+      "input_price_per_1m": 0.20,
+      "output_price_per_1m": 0.80,
+      "context_window": 2000000,
+      "best_for": "Massive context, budget",
+      "agent_compatibility": ["OpenClaw"],
+      "analogy": "Long-haul truck — endless capacity"
+    }
+  ]
+}

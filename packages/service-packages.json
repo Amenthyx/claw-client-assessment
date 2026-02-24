@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "packages": [
+    {
+      "name": "Starter",
+      "price": "$99 one-time",
+      "platform": "PicoClaw",
+      "channels": 1,
+      "skills": 3,
+      "includes": ["Basic config", "1 channel setup", "3 pre-installed skills", "Email support for 7 days"],
+      "timeline": "24 hours",
+      "target": "Personal use, hobbyists, testing"
+    },
+    {
+      "name": "Professional",
+      "price": "$299 one-time",
+      "platform": "OpenClaw",
+      "channels": 3,
+      "skills": 10,
+      "includes": ["Custom personality", "3 channel setup", "10 skills", "Scheduler config", "30-day email support"],
+      "timeline": "48 hours",
+      "target": "Freelancers, small businesses"
+    },
+    {
+      "name": "Business",
+      "price": "$599 one-time",
+      "platform": "OpenClaw",
+      "channels": "All",
+      "skills": 20,
+      "includes": ["All channels", "20 skills", "Scheduler", "MCP servers", "1-hour training call", "60-day support"],
+      "timeline": "1 week",
+      "target": "Growing businesses, teams"
+    },
+    {
+      "name": "Enterprise",
+      "price": "$1,499+",
+      "platform": "NanoClaw or OpenClaw",
+      "channels": "Custom",
+      "skills": "Unlimited",
+      "includes": ["Custom deployment", "Agent swarms", "Custom skills development", "Security audit", "Dedicated support", "SLA"],
+      "timeline": "2 weeks",
+      "target": "Enterprises, regulated industries"
+    },
+    {
+      "name": "Managed Service",
+      "price": "$199/month",
+      "platform": "Any",
+      "channels": "Any",
+      "skills": "Any",
+      "includes": ["Full monitoring", "Auto-updates", "24/7 support", "Monthly optimization", "Usage reports"],
+      "timeline": "Ongoing",
+      "target": "Hands-off clients, agencies"
+    }
+  ]
+}

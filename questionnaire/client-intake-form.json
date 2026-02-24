@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.0",
+  "title": "AI Agent Client Needs Assessment",
+  "sections": {
+    "client_profile": {
+      "name": "",
+      "company": "",
+      "industry": {
+        "options": ["Real Estate", "E-commerce/Retail", "Healthcare", "Finance/Banking", "Legal", "Marketing/Creative Agency", "Technology/SaaS", "Education", "Hospitality/Tourism", "Manufacturing", "Consulting", "Personal Use", "Other"]
+      },
+      "company_size": {
+        "options": ["Solo", "2-10", "11-50", "51-200", "200+"]
+      },
+      "technical_proficiency": {
+        "scale": "1-5",
+        "descriptions": {
+          "1": "I use email and social media",
+          "2": "Comfortable with apps and basic computer tasks",
+          "3": "Can follow technical instructions step by step",
+          "4": "Some programming/IT experience",
+          "5": "Developer or IT professional"
+        }
+      },
+      "primary_devices": {
+        "options": ["Windows PC", "Mac", "Linux", "Raspberry Pi", "Server", "Cloud", "Mobile only"]
+      },
+      "monthly_budget": {
+        "options": ["Free ($0)", "$5-25/month", "$25-100/month", "$100-500/month", "$500+/month"]
+      }
+    },
+    "use_cases": {
+      "personal_productivity": [
+        "Email management",
+        "Calendar management",
+        "Daily briefings",
+        "Note-taking and knowledge management",
+        "Web research and summarization",
+        "File organization",
+        "Habit tracking",
+        "Travel planning"
+      ],
+      "business_operations": [
+        "Customer support/chatbot",
+        "Lead generation and qualification",
+        "Invoice and expense management",
+        "Inventory management",
+        "Report generation",
+        "CRM integration",
+        "Project management",
+        "HR/recruitment screening"
+      ],
+      "communication": [
+        "WhatsApp automation",
+        "Telegram bot",
+        "Slack automation",
+        "Discord management",
+        "Email newsletter",
+        "Social media scheduling",
+        "SMS notifications"
+      ],
+      "development": [
+        "Code review",
+        "Git/GitHub automation",
+        "CI/CD management",
+        "Database queries",
+        "API monitoring",
+        "Documentation generation",
+        "Bug tracking"
+      ],
+      "data_analytics": [
+        "Spreadsheet automation",
+        "Dashboard creation",
+        "Market research",
+        "Competitor analysis",
+        "Financial analysis",
+        "Survey processing",
+        "SEO monitoring"
+      ],
+      "creative_content": [
+        "Blog/article writing",
+        "Image generation",
+        "Video script creation",
+        "Social media content",
+        "Presentation creation",
+        "Translation services"
+      ],
+      "smart_home_iot": [
+        "Smart light control",
+        "Thermostat management",
+        "Security cameras",
+        "Home automation routines",
+        "Voice assistant integration"
+      ],
+      "security_compliance": [
+        "Password management",
+        "Security monitoring",
+        "Compliance checking",
+        "Data backup automation",
+        "Privacy protection"
+      ]
+    },
+    "communication_preferences": {
+      "messaging_platforms": {
+        "options": ["WhatsApp", "Telegram", "Slack", "Discord", "Teams", "Signal", "iMessage", "SMS", "Email"]
+      },
+      "interaction_mode": {
+        "options": ["Text only", "Voice + Text", "Web dashboard", "All of the above"]
+      },
+      "availability": {
+        "options": ["24/7", "Business hours", "Custom schedule"]
+      },
+      "user_count": {
+        "options": ["Just me", "2-5", "5-20", "20+"]
+      },
+      "languages": []
+    },
+    "data_privacy": {
+      "sensitivity": {
+        "options": ["Low", "Medium", "High", "Critical"]
+      },
+      "storage_preference": {
+        "options": ["Local only", "Private cloud", "Any cloud", "Specific region"]
+      },
+      "regulations": {
+        "options": ["GDPR", "HIPAA", "SOC2", "PCI-DSS", "None", "Other"]
+      },
+      "internet_access": {
+        "options": ["Yes", "Limited", "No"]
+      }
+    },
+    "performance_scale": {
+      "daily_requests": {
+        "options": ["<10", "10-50", "50-200", "200-1000", "1000+"]
+      },
+      "response_time": {
+        "options": ["Instant (<2s)", "Fast (<10s)", "Standard (<30s)", "Background OK"]
+      },
+      "offline_needed": {
+        "options": ["Yes", "No", "Sometimes"]
+      },
+      "growth_12m": {
+        "options": ["Same", "2x", "5x", "10x+"]
+      }
+    }
+  }
+}

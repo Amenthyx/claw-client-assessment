@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-02-24",
+  "source": "ClawHub + MCP.so + SkillsMP",
+  "ecosystem_stats": {
+    "clawhub_skills": 3286,
+    "mcp_servers": 17000,
+    "skillsmp_skills": 96000,
+    "clawhub_categories": 11
+  },
+  "top_skills": [
+    {"name": "email-manager", "category": "Productivity", "platforms": ["OpenClaw"], "rating": 4.8, "description": "Reads, drafts, and organizes emails automatically"},
+    {"name": "calendar-sync", "category": "Productivity", "platforms": ["OpenClaw", "NanoClaw", "PicoClaw"], "rating": 4.7, "description": "Manages calendar across Google, Outlook"},
+    {"name": "web-researcher", "category": "AI/ML", "platforms": ["OpenClaw", "NanoClaw", "PicoClaw"], "rating": 4.6, "description": "Searches the web and gives summarized answers"},
+    {"name": "document-parser", "category": "Productivity", "platforms": ["OpenClaw", "NanoClaw"], "rating": 4.5, "description": "Reads PDFs, Word docs, and extracts key info"},
+    {"name": "whatsapp-business", "category": "Communication", "platforms": ["OpenClaw"], "rating": 4.9, "description": "Auto-replies, broadcasts, and manages WhatsApp chats"},
+    {"name": "slack-automation", "category": "Communication", "platforms": ["OpenClaw"], "rating": 4.7, "description": "Automates Slack messages, reminders, and reports"},
+    {"name": "code-reviewer", "category": "Development", "platforms": ["NanoClaw"], "rating": 4.8, "description": "Reviews code and suggests improvements"},
+    {"name": "smart-home-hub", "category": "IoT", "platforms": ["PicoClaw"], "rating": 4.4, "description": "Controls Hue, thermostats, and smart devices"},
+    {"name": "financial-tracker", "category": "Finance", "platforms": ["OpenClaw"], "rating": 4.3, "description": "Tracks expenses, income, and generates reports"},
+    {"name": "content-writer", "category": "Creative", "platforms": ["OpenClaw"], "rating": 4.6, "description": "Writes blog posts, social media, and marketing copy"},
+    {"name": "lead-qualifier", "category": "Business", "platforms": ["OpenClaw"], "rating": 4.7, "description": "Scores and qualifies leads from forms/emails"},
+    {"name": "data-visualizer", "category": "Analytics", "platforms": ["OpenClaw"], "rating": 4.5, "description": "Creates charts and dashboards from data"},
+    {"name": "security-scanner", "category": "Security", "platforms": ["NanoClaw"], "rating": 4.8, "description": "Monitors for security threats"},
+    {"name": "translation-bot", "category": "Communication", "platforms": ["OpenClaw", "NanoClaw", "PicoClaw"], "rating": 4.4, "description": "Real-time message translation"},
+    {"name": "meeting-assistant", "category": "Productivity", "platforms": ["OpenClaw"], "rating": 4.6, "description": "Takes notes, creates summaries, tracks action items"}
+  ]
+}

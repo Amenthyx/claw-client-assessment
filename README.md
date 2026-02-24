@@ -36,12 +36,12 @@ For internal use only — not shared with clients:
 
 | Solution | Price | Details |
 |----------|-------|---------|
-| **Private** | €1,000 one-time | Full setup, all channels, custom workflows, personality. 48–72h delivery. |
-| **Enterprise** | From €5,000 one-time | Full deployment, unlimited users/integrations/workflows, compliance. 1–2 weeks. |
-| **Managed Service** | €300/month | Installation included. Hosting, monitoring, updates, optimization. |
-| **Ongoing Assistance** | €500/month | Available after 6 months. Priority support, monthly calls, new integrations. |
+| **Private** | €1,000 one-time | Full setup, all channels, custom workflows. Runs on client's own hardware or cloud. 48–72h. |
+| **Enterprise** | From €5,000 one-time | Full deployment, unlimited everything. Client's servers, their cloud, or ours. 1–2 weeks. |
+| **Managed Service** | €300/month | Installation included. We host or manage on client's hardware. Monitoring, updates, optimization. |
+| **Ongoing Assistance** | €500/month | After 6 months. Priority support, monthly calls, new integrations on request. |
 
-> **Note:** AI provider API subscriptions are managed and paid directly by the client.
+> **Note:** Clients can use their own hardware (PC, server, Raspberry Pi, NAS, existing cloud). We deploy wherever they prefer. AI provider API subscriptions are managed and paid directly by the client.
 
 ## Usage
 

@@ -1,55 +1,78 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "2.0",
+  "last_updated": "2026-02-25",
+  "currency": "EUR",
   "packages": [
     {
-      "name": "Starter",
-      "price": "$99 one-time",
-      "platform": "PicoClaw",
-      "channels": 1,
-      "skills": 3,
-      "includes": ["Basic config", "1 channel setup", "3 pre-installed skills", "Email support for 7 days"],
-      "timeline": "24 hours",
-      "target": "Personal use, hobbyists, testing"
-    },
-    {
-      "name": "Professional",
-      "price": "$299 one-time",
-      "platform": "OpenClaw",
-      "channels": 3,
-      "skills": 10,
-      "includes": ["Custom personality", "3 channel setup", "10 skills", "Scheduler config", "30-day email support"],
-      "timeline": "48 hours",
-      "target": "Freelancers, small businesses"
-    },
-    {
-      "name": "Business",
-      "price": "$599 one-time",
-      "platform": "OpenClaw",
-      "channels": "All",
-      "skills": 20,
-      "includes": ["All channels", "20 skills", "Scheduler", "MCP servers", "1-hour training call", "60-day support"],
-      "timeline": "1 week",
-      "target": "Growing businesses, teams"
+      "name": "Private",
+      "price": "€1,000 one-time",
+      "target": "Private clients, freelancers, personal use",
+      "hosting": "Client's own hardware (PC, server, Raspberry Pi) or cloud",
+      "includes": [
+        "Full AI assistant setup, configuration, and personalization",
+        "All messaging channels + email",
+        "Custom workflows tailored to needs",
+        "Unlimited scheduled tasks and briefings",
+        "Smart home integration if requested",
+        "Fully customized personality",
+        "Email support during setup"
+      ],
+      "timeline": "48–72 hours",
+      "api_note": "AI provider API subscription managed by client (typically €5–€50/month)"
     },
     {
       "name": "Enterprise",
-      "price": "$1,499+",
-      "platform": "NanoClaw or OpenClaw",
-      "channels": "Custom",
-      "skills": "Unlimited",
-      "includes": ["Custom deployment", "Agent swarms", "Custom skills development", "Security audit", "Dedicated support", "SLA"],
-      "timeline": "2 weeks",
-      "target": "Enterprises, regulated industries"
+      "price": "From €5,000 one-time",
+      "target": "Businesses, teams, regulated industries",
+      "hosting": "Client's own servers, client's cloud, or we provide infrastructure",
+      "includes": [
+        "Full deployment, integrations, custom workflows, team onboarding",
+        "Unlimited users",
+        "All channels (chat, email, internal tools)",
+        "All existing tools connected",
+        "Unlimited custom workflows",
+        "Dashboards and automated reports",
+        "Compliance (GDPR, SOC 2, industry-specific)",
+        "Dedicated account manager during setup"
+      ],
+      "timeline": "1–2 weeks depending on complexity",
+      "api_note": "API subscription costs managed by client's organization"
     },
     {
       "name": "Managed Service",
-      "price": "$199/month",
-      "platform": "Any",
-      "channels": "Any",
-      "skills": "Any",
-      "includes": ["Full monitoring", "Auto-updates", "24/7 support", "Monthly optimization", "Usage reports"],
-      "timeline": "Ongoing",
-      "target": "Hands-off clients, agencies"
+      "price": "€300/month",
+      "target": "Clients who want zero hassle — on our servers or theirs",
+      "hosting": "We provide infrastructure, or we manage on client's own hardware",
+      "includes": [
+        "Installation included (no separate setup fee)",
+        "Hosting and infrastructure fully managed",
+        "Continuous updates and optimization",
+        "24/7 health monitoring",
+        "Priority email and chat support"
+      ],
+      "timeline": "Ongoing"
+    },
+    {
+      "name": "Ongoing Assistance",
+      "price": "€500/month",
+      "target": "Growing businesses that need continuous evolution",
+      "availability": "After the first 6 months of operation",
+      "includes": [
+        "Priority support with dedicated response within hours",
+        "Monthly performance review and optimization call",
+        "New tool and service integrations on request",
+        "Workflow updates as needs evolve"
+      ],
+      "timeline": "Ongoing"
     }
-  ]
+  ],
+  "cost_estimation": {
+    "description": "Estimated monthly AI provider costs based on daily usage",
+    "tiers": [
+      { "usage": "Light (5–10 tasks/day)", "cost": "€5–€15/month", "example": "A few emails, calendar checks, daily briefing" },
+      { "usage": "Moderate (20–50 tasks/day)", "cost": "€15–€40/month", "example": "Email management, scheduling, research, content drafts" },
+      { "usage": "Heavy (50–100 tasks/day)", "cost": "€40–€80/month", "example": "Full inbox management, team automation, reports" },
+      { "usage": "Intensive (100+ tasks/day)", "cost": "€80–€200/month", "example": "Enterprise: customer support, lead qualification, multi-department" }
+    ]
+  }
 }
